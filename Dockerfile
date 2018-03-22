@@ -1,5 +1,5 @@
 FROM hseeberger/scala-sbt:latest
 
-COPY *.* .
+COPY . /benchmark
 
-RUN sbt run
+RUN cd /benchmark && sbt run
