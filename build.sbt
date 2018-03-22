@@ -1,1 +1,1 @@
-libraryDependencies += "com.storm-enroute" %% "scalameter-core" % "0.9"
+libraryDependencies += "com.storm-enroute" %% "scalameter" % "0.9"
