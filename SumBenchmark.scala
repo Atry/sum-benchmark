@@ -1,7 +1,7 @@
 import org.scalameter.api._
 import org.scalameter.picklers.Implicits._
 
-object SumBenchmark extends Bench.LocalTime {
+object SumBenchmark extends Bench.ForkedTime {
   
   val arrays = for {
     size <- Gen.exponential("size")(256, 2097152, 2)
